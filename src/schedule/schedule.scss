@@ -1,0 +1,16 @@
+.schedule-row {
+  &.week {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background: lightgrey;
+  }
+}
+
+.cell {
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  width: auto;
+}
+
